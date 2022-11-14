@@ -1,0 +1,22 @@
+:root{
+  --dark-purple: #573661;
+  --light-purple: #c9aac1;
+  --dark-color: #1d2231;
+  --white-color: #ffffff;
+  --dark-gray: #5a4a6f;
+  --light-gray: #8390A2;
+
+
+}
+
+body {
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+

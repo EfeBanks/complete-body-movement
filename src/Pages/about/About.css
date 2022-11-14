@@ -1,0 +1,31 @@
+.aboutImage{
+    width:100%;
+    height: 90vh;
+}
+
+.bodyTextSpecial{
+    background: linear-gradient( #573661, #99728f);
+    text-align: justify;
+    color:var(--white-color);
+}
+
+.headingtop {
+    margin-top: -20%;
+    margin-left: 37%; 
+    font-size: 60px;
+    font-weight: bold;
+    color:var(--dark-purple);
+    text-shadow: 3px 5px 3px #c9aac1;
+    animation: about-load 1500ms ease-in-out; 
+    
+}
+
+
+@keyframes about-load {
+    0% {
+        transform: translateX(-280%);
+    }
+    100% {
+        transform: translateX(0);
+    } 
+}

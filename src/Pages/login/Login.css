@@ -1,0 +1,28 @@
+.loginText{
+    display:flex;
+     justify-content:center; 
+     color:#573661;
+      /* word-spacing: 5px; */
+      font-size: 20px;
+
+}
+
+.loginForm{
+    display:flex;
+    justify-content:center; 
+}
+
+.linkContact{
+    color:#573661 !important;
+    text-decoration: none;
+}
+
+.linkContact:hover{
+    font-weight: bold;
+
+}
+
+.submitBtn:hover{
+    background-color: #573661 !important;
+    color:#fff !important;
+}

@@ -1,0 +1,37 @@
+.sidebar {
+    background: linear-gradient( #573661, #99728f);
+    
+    
+}
+.sidebarHeader{
+    margin-bottom: 5%;
+
+}
+
+.sidebarHeader h2{
+    color: var(--white-color);
+    letter-spacing:5px;
+    font-weight:bold;
+}
+
+.sidebarHeader span {
+    color:var(--white-color);
+    font-weight: 500;
+}
+
+.sidebarLink{
+    color: var(--white-color) !important;
+
+}
+.sidebarLink:hover{
+    background-color: var(--white-color);
+    color:var(--dark-purple) !important;
+}
+
+.sidebarBtn-1{
+    background-color: var(--dark-purple) !important;
+}
+
+.sidebarBtn-2{
+    background-color: var(--light-purple) !important;
+}

@@ -1,0 +1,18 @@
+
+.Navibar{
+    background-color: var(--dark-purple);   
+}
+
+.call {
+    color:#5a4a6f;
+    font-size: large;
+}
+
+@media screen and (max-width: 500px){
+    .mquery img {
+        width:100%;
+    }
+
+};
+    
+

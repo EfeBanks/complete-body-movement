@@ -1,0 +1,9 @@
+.zengaHeading{
+    margin-top: -20%;
+    margin-left: 39%; 
+    font-size: 60px;
+    font-weight: bold;
+    color:var(--dark-purple);
+    text-shadow: 3px 5px 3px #c9aac1;
+    animation: about-load 1500ms ease-in-out; 
+}

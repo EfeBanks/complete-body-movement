@@ -1,0 +1,26 @@
+.footer {
+    background-color: var(--dark-color);   
+    color: var(--white-color);
+}
+
+/* .footerText{
+    text-align: justify;
+} */
+
+.pilateCourses h5{
+    text-align: center;
+
+}
+
+.pilateCourses ul{
+    list-style: none;
+}
+
+/* Link{
+    color: var(--light-purple) !important;
+}
+
+.footerLink:link{
+    color:var(--white-color) !important;
+
+} */

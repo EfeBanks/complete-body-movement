@@ -1,0 +1,80 @@
+.container-fluid{
+    margin:0;
+    padding:0;
+    
+}
+
+.imgSlider {
+    height: 50% !important; 
+}
+
+Carousel.Item{
+    height: 80px !important;
+}
+.bodyHeading {
+    text-align: center;
+    color:var(--dark-purple);
+    font-weight: bold;
+    text-shadow: 3px 5px 3px #c9aac1;
+}
+
+.bodyText{
+    text-align: justify;
+}
+
+.openingHours{
+    color:var(--dark-purple); 
+    font-weight: bold;
+}
+.examDates{
+    color:var(--dark-purple);
+    font-weight: bold;
+}
+
+/* .carouselCaption{
+    
+} */
+
+
+.carouselTitle{
+    margin-top: -30%;
+    margin-left: 37%; 
+    font-size: 60px;
+    font-weight: bold;
+    color:var(--dark-purple);
+    text-shadow: 3px 5px 3px #c9aac1;
+    animation: about-load 1500ms ease-in-out; 
+    
+}
+.carouselText {
+    margin-top: -20% !important;
+    /* color: var(--dark-purple); */
+    color: var(--dark-color);
+    text-shadow: 3px 2px 6px #fff;
+    /* background-color: var(--dark-purple);
+    padding: 3%;
+    opacity:0.3; */
+    animation: text-load 1500ms ease-in-out; 
+    
+
+}
+
+
+@keyframes about-load {
+    0% {
+        transform: translateX(-280%);
+    }
+    100% {
+        transform: translateX(0);
+    } 
+}
+
+
+@keyframes text-load {
+    0% {
+        transform: translateY(280%);
+    }
+    100% {
+        transform: translateY(0);
+    } 
+}
