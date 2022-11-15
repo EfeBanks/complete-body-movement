@@ -12,7 +12,7 @@ export default function NavigationBar() {
         <div className='container'>
             <div className='row'>
             <div className='col-md-9 mquery'><img src={logo} alt="logo"/></div>
-            <p className='col-md-3 mt-5 mb-0 call'>Call: 01 5156210 / 087 9474784 </p>
+            <p className='col-md-3 mt-md-5 mb-0 call'>Call: 01 5156210 / 087 9474784 </p>
             </div>
         </div>
       <Navbar expand="lg" variant="dark" className='Navibar'>

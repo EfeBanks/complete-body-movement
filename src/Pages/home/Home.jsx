@@ -12,8 +12,8 @@ import './Home.css';
  import img5 from '../../images/cbmPix5.jpg';
 import Carousel from 'react-bootstrap/Carousel';
 import Sidebar from '../../Components/sidebar/Sidebar';
-import vid1 from '../../videos/v1.mp4';
-
+import vid1 from '../../videos/v4.mp4';
+import vid2 from '../../videos/v5.mp4';
 
 export default function Home() {
   return (
@@ -95,30 +95,34 @@ export default function Home() {
     <div className='row'>
       <div className="col-md-9 bodyContent">
             <h1 className="bodyHeading mt-5 mb-4">
-              Welcome To COMPLETE BODY MOVEMENT
+              Welcome to COMPLETE BODY MOVEMENT
             </h1>
             
-            <p className="bodyText mx-5 ">
+            <p className="bodyText mx-sm-5 ">
             COMPLETE BODY MOVEMENT is the Merrithew™ Licenced Training Centre of STOTT PILATES® on the island of Ireland, offering STOTT PILATES®, Total Barre®, CORE™ Athletic Conditioning & Performance Training, & ZEN•GA Matwork education. The STOTT PILATES® Method has been offered in Ireland since 2004 and hundreds of instructors have passed through the courses coming from a variety of backgrounds such as physiotherapy, physical therapy, personal training, fitness instruction, massage therapy, sports science, dance, ballet, sport, nursing and other allied health professions. All these students set out with the goal of becoming a pilates instructor of the highest calibre while being able to offer their own unique style of teaching to the STOTT PILATES® Course content.
             </p>
-            <p className="bodyText mx-5 ">
+            <p className="bodyText mx-sm-5 ">
             COMPLETE BODY MOVEMENT is committed to offering our students the highest quality of Mind Body Training primarily in the STOTT PILATES® method, so that as Trained and/or Certified instructors they may be capable of positively affecting other peoples’ lives by the example that they show and the knowledge that they impart while teaching.
             </p>
 
             {/* video section */}
-            <div className='mx-5 my-4'>
-              <video src={vid1} controls="controls" autoPlay="true" loop="true" className='img-fluid'/>
+            <div className='mx-sm-5 my-4'>
+              <video src={vid1} controls="controls" autoPlay="true" loop="true" className='img-fluid' style={{width:'100%'}}/>
+              
+            </div>
+            <div className='mx-sm-5 my-4'>
+              <video src={vid2} controls="controls" autoPlay="true" loop="true" className='img-fluid' style={{width:'100%'}}/>
             </div>
 
             <div>
               <h5 className='mx-5 openingHours'>OPENING HOURS</h5>
-              <p className="hours mx-5">
+              <p className="hours mx-sm-5 bodyText">
               WE ARE CURRENTLY WORKING REMOTELY OUT OF THE OFFICE. FOR ALL QUERIES PLEASE EMAIL US ON dani@completebodymovement.ie OR SEND US A TEXT MESSAGE AT 087 9474784 WITH YOUR QUERY.<br/>WE LOOK FORWARD TO HEARING FROM YOU! 
               </p>
             </div>
             <div>
               <h5 className='mx-5 examDates'>EXAM DATES</h5>
-              <ul className="hours mx-5">
+              <ul className="hours mx-sm-5">
                 <li>SEPTEMBER 17TH - 2 places available</li>
                 <li>SEPTEMBER 24TH - 1 place available</li>
                 <li>OCTOBER 8TH - FULL</li>
@@ -129,9 +133,9 @@ export default function Home() {
             </div>
             <div>
             <h5 className='mx-5 examDates'>NOTICE</h5>
-              <p className="hours mx-5">
+              <p className="hours mx-sm-5 bodyText">
                 IN ORDER TO PROTECT OUR STUDENTS, AS WELL AS OUR TEACHERS, ALL STUDENTS MUST WEAR A FACE MASK AND GLOVES DURING THE EXAM WHEN ADVICED BY PUBLIC HEALTH ADVICE.
-                FOR QUERIES ON EXAM EXTENSIONS AND OTHER QUERIES RELATED TO COVID-19 AND YOUR EDUCTATION PLEASE VISIT THIS DIRECT LINK: HTTP://WWW.MERRITHEW.COM/INSTRUCTOR-TRAINING/COVID-19-EDUCATION-FAQS.
+                FOR QUERIES ON EXAM EXTENSIONS AND OTHER QUERIES RELATED TO COVID-19 AND YOUR EDUCTATION PLEASE VISIT THIS DIRECT LINK: <span style={{fontSize:'14px'}}>HTTP://WWW.MERRITHEW.COM/INSTRUCTOR-TRAINING/COVID-19-EDUCATION-FAQS.</span>
               
               <p className="bodyTextSpecial p-3 mt-4">
                 <hr/>
