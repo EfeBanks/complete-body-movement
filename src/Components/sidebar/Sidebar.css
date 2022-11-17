@@ -28,6 +28,11 @@
     color:var(--dark-purple) !important;
 }
 
+.linkBtn{
+    text-decoration: none !important;
+    color:white !important;
+}
+
 .sidebarBtn-1{
     background-color: var(--dark-purple) !important;
 }

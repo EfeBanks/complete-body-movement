@@ -1,7 +1,6 @@
 import React from 'react';
 import Sidebar from '../../Components/sidebar/Sidebar';
 import Table from 'react-bootstrap/Table';
-import {Link} from 'react-router-dom';
 import {Card, Form, Button} from 'react-bootstrap';
 
 export default function ICCB() {

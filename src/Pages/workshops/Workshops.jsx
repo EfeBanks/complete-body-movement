@@ -67,7 +67,7 @@ export default function Workshops() {
                     <h5 className='my-4'>LOCATION</h5>
                     <p>The Pavillion Pilates Studio, Merrion Road, Dublin 4. (Across Merrion Road from St Vincent's Hospital )</p>
                     <p>FOR DESCRIPTIONS ON THE CONTENTS OF THE WORKSHOPS, PLEASE VISIT :<br/>
-                    <a href='https://www.merrithew.com/instructor-training/cont-ed/stott-pilates' target='_blank' noreferral> https://www.merrithew.com/instructor-training/cont-ed/stott-pilates</a> </p>
+                    <a href='https://www.merrithew.com/instructor-training/cont-ed/stott-pilates' target='_blank'  rel="noreferrer"> https://www.merrithew.com/instructor-training/cont-ed/stott-pilates</a> </p>
                     <p><span style={{color:'#573661', fontWeight:'bold'}}>Please Note:</span> CECs can also be gained through any Merrithew™ courses and/or workshops, such as ZEN•GA™, Total Barre™,CORE™Athletic Conditioning and Performance Training™, STOTTPILATES™ Advanced Mat and STOTT PILATES™ Injusries and Special Populations Course. </p>
                 
                 </div>
@@ -92,14 +92,14 @@ export default function Workshops() {
                         <td>SATURDAY 12th November 1 workshop €77  	</td>
                         <td><Link to='/Venue' className="linkContact"> The Pavilion Pilates Studio, Dublin 4</Link></td>
                         <td>77</td>
-                        <td><a href="" className="linkContact">Book with Paypal</a></td>
+                        <td><a href="#" className="linkContact">Book with Paypal</a></td>
                         </tr>
 
                         <tr>
                         <td>SUNDAY 13th NOVEMBER 1 workshop €77.			</td>
                         <td><Link to='/Venue' className="linkContact">The Pavilion Pilates Studio, Dublin 4</Link></td>
                         <td>97</td>
-                        <td><a href="" className="linkContact">Book with Paypal</a></td>
+                        <td><a href=""  rel="noreferrer" className="linkContact">Book with Paypal</a></td>
                         </tr>
 
                     </tbody>

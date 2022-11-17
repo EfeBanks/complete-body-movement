@@ -98,7 +98,7 @@ export default function IntensiveReformer() {
                         <td>2022:sept 23/24/25 & oct 7/8/9 & oct 21/22/23</td>
                         <td><Link to='/Venue' className="linkContact" >The Pavilion Pilates Studio, Dublin 4</Link></td>
                         <td>725</td>
-                        <td><a href="" className="linkContact">Book with Paypal</a></td>
+                        <td><a href=""  rel="noreferrer" className="linkContact">Book with Paypal</a></td>
                         </tr>
 
                     </tbody>

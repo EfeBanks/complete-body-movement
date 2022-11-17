@@ -121,7 +121,7 @@ export default function TotalBarre() {
                         <td>2021: SUNDAY NOVEMBER 21 10.30AM-6.15PM	</td>
                         <td><Link to='/Venue' className="linkContact">The Pavilion Pilates Studio, Dublin 4</Link></td>
                         <td>425</td>
-                        <td><a href="" className="linkContact">Book with Paypal</a></td>
+                        <td><a href=""  rel="noreferrer" className="linkContact">Book with Paypal</a></td>
                         </tr>
 
                     </tbody>

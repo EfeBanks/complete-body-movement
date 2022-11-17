@@ -29,8 +29,8 @@ export default function Home() {
           style={{height:'50%', width:'50%'}}
           
         />
-        <Carousel.Caption>
-          <h1 className='carouselTitle position-absolute  d-none d-md-block'> Welcome</h1>
+        <Carousel.Caption className=' d-none d-md-block '>
+          <h1 className='carouselTitle position-absolute d-none d-sm-block '> Welcome</h1>
           {/* <p className='h5 carouselText'>COMPLETE BODY Movement is the sole licensed training centre for STOTT PILATES in Ireland and have been running courses for 8 years. </p> */}
           <p className='h5 carouselText d-md-block d-none'>COMPLETE BODY Movement is the sole licensed training centre for STOTT PILATES, Total Barre®, ZEN•GA Matwork education and other courses in Ireland for 8 years. </p>
           {/* <p className='h5 carouselText'>COMPLETE BODY MOVEMENT is the Merrithew™ Licenced Training Centre of STOTT PILATES® on the island of Ireland, offering STOTT PILATES®, Total Barre®, CORE™ Athletic Conditioning & Performance Training, & ZEN•GA Matwork education.</p> */}
@@ -43,7 +43,11 @@ export default function Home() {
           alt="Second slide"
           style={{height:'50%'}}
         />
-          <Carousel.Caption>
+          {/* <Carousel.Caption className='d-md-block d-none'>
+          <h1 className='carouselTitle position-absolute  d-none d-md-block'> Welcome</h1>
+          <p className='h5 carouselText d-sm-block d-none'>COMPLETE BODY Movement is the sole licensed training centre for STOTT PILATES, Total Barre®, ZEN•GA Matwork education and other courses in Ireland for 8 years. </p>
+        </Carousel.Caption> */}
+        <Carousel.Caption className='d-md-block d-none'>
           <h1 className='carouselTitle position-absolute  d-none d-md-block'> Welcome</h1>
           <p className='h5 carouselText d-md-block d-none'>COMPLETE BODY Movement is the sole licensed training centre for STOTT PILATES, Total Barre®, ZEN•GA Matwork education and other courses in Ireland for 8 years. </p>
         </Carousel.Caption>
@@ -56,7 +60,7 @@ export default function Home() {
           alt="Third slide"
         />
 
-        <Carousel.Caption>
+        <Carousel.Caption className='d-md-block d-none'>
           <h1 className='carouselTitle position-absolute  d-none d-md-block'> Welcome</h1>
           <p className='h5 carouselText d-md-block d-none'>COMPLETE BODY Movement is the sole licensed training centre for STOTT PILATES, Total Barre®, ZEN•GA Matwork education and other courses in Ireland for 8 years. </p>
         </Carousel.Caption>
@@ -69,7 +73,7 @@ export default function Home() {
           alt="Third slide"
         />
 
-        <Carousel.Caption>
+        <Carousel.Caption className='d-md-block d-none'>
           <h1 className='carouselTitle position-absolute  d-none d-md-block'> Welcome</h1>
           <p className='h5 carouselText d-md-block d-none'>COMPLETE BODY Movement is the sole licensed training centre for STOTT PILATES, Total Barre®, ZEN•GA Matwork education and other courses in Ireland for 8 years. </p>
         </Carousel.Caption>
@@ -82,8 +86,8 @@ export default function Home() {
           alt="Third slide"
         />
 
-        <Carousel.Caption>
-          <h1 className='carouselTitle position-absolute  d-none d-md-block'> Welcome</h1>
+        <Carousel.Caption className='d-md-block d-none'>
+          <h1 className='carouselTitle position-absolute  d-none d-md-block '> Welcome</h1>
           <p className='h5 carouselText d-md-block d-none'>COMPLETE BODY Movement is the sole licensed training centre for STOTT PILATES, Total Barre®, ZEN•GA Matwork education and other courses in Ireland for 8 years. </p>
         </Carousel.Caption>
 
@@ -107,11 +111,11 @@ export default function Home() {
 
             {/* video section */}
             <div className='mx-sm-5 my-4'>
-              <video src={vid1} controls="controls" autoPlay="true" loop="true" className='img-fluid' style={{width:'100%'}}/>
+              <video src={vid1} controls="controls" autoPlay={true} loop={true} className='img-fluid' style={{width:'100%'}}/>
               
             </div>
             <div className='mx-sm-5 my-4'>
-              <video src={vid2} controls="controls" autoPlay="true" loop="true" className='img-fluid' style={{width:'100%'}}/>
+              <video src={vid2} controls="controls" autoPlay={true} loop={true} className='img-fluid' style={{width:'100%'}}/>
             </div>
 
             <div>
@@ -136,13 +140,13 @@ export default function Home() {
               <p className="hours mx-sm-5 bodyText">
                 IN ORDER TO PROTECT OUR STUDENTS, AS WELL AS OUR TEACHERS, ALL STUDENTS MUST WEAR A FACE MASK AND GLOVES DURING THE EXAM WHEN ADVICED BY PUBLIC HEALTH ADVICE.
                 FOR QUERIES ON EXAM EXTENSIONS AND OTHER QUERIES RELATED TO COVID-19 AND YOUR EDUCTATION PLEASE VISIT THIS DIRECT LINK: <span style={{fontSize:'14px'}}>HTTP://WWW.MERRITHEW.COM/INSTRUCTOR-TRAINING/COVID-19-EDUCATION-FAQS.</span>
-              
+                </p>
               <p className="bodyTextSpecial p-3 mt-4">
                 <hr/>
                 ® Registered Trademark of Merrithew Corporation, used under license. 
                 <br/>Photography © Merrithew Corporation, used with permission.
-                </p>
               </p>
+              
             </div>
             <div>
            

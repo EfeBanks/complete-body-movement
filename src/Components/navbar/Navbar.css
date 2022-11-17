@@ -3,15 +3,24 @@
     background-color: var(--dark-purple);   
 }
 
+.topNavi{
+    background-color: #f0ddeb;
+}
+
+.mquery img {
+    margin:auto;
+}
+
 .call {
     color:#5a4a6f;
     font-size: large;
+   
 }
 
 @media screen and (max-width: 500px){
     .mquery img {
         width:100%;
-        margin-bottom: -10%;
+        
     }
 
 };

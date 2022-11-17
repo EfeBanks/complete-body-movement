@@ -128,7 +128,7 @@ export default function IntensiveMatPlus() {
                         <td>2023: JAN 13/14/15-21/22 & FEB 10/11/12	</td>
                         <td><Link to='/Venue' className="linkContact">The Pavilion Pilates Studio, Dublin 4</Link></td>
                         <td>650</td>
-                        <td><a href="" className="linkContact">Book with Paypal</a></td>
+                        <td><a href=""  rel="noreferrer" className="linkContact">Book with Paypal</a></td>
                         </tr>
 
                     </tbody>

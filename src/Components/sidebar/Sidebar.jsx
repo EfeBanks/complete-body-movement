@@ -1,7 +1,8 @@
-import {Nav, Button} from 'react-bootstrap';
+import {Nav} from 'react-bootstrap';
 import './Sidebar.css';
 import SocialMedia from '../socialMedia/SocialMedia';
 import Pp from '../../images/paypal.png';
+import {Link} from 'react-router-dom';
 
 function Sidebar() {
   return (
@@ -21,13 +22,20 @@ function Sidebar() {
           </Nav>
       </div>
       <div className='sidebarButtons mt-4 d-flex justify-content-center'>
-            <Button className='sidebarBtn-1 me-3'>Become an INSTRUCTOR</Button>
-            <Button className='sidebarBtn-2'>Join our WORKSHOPS</Button>
+            <button className='sidebarBtn-1 me-3 btn btn-sm'>
+              <Link to='/' className="linkBtn" >Become an INSTRUCTOR</Link>
+              </button>
+            <button className='sidebarBtn-2  btn btn-sm'>
+              <Link to='/Workshops' className="linkBtn" >Join our WORKSHOPS</Link>
+              </button>
       </div>
       <div className='m-4'>
         <h5>PAYMENTS BY</h5>
-            <img src= {Pp} alt="paypal" style={{width:'50%'}} className='img-fluid'/>
-          </div>
+       
+          <img src= {Pp} alt="paypal"  style={{width:'50%'}} className='img-fluid'/>
+          
+            
+      </div>
       <div className='m-4'>
           <SocialMedia/>
           

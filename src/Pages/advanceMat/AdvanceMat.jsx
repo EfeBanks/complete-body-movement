@@ -68,14 +68,14 @@ export default function advanceMat() {
                         <td>2021: MAY 28th 9.30am-3.30pm</td>
                         <td><Link to='/Venue' className="linkContact" >The Pavilion Pilates Studio, Dublin 4</Link></td>
                         <td>240</td>
-                        <td><a href="" className="linkContact">Book with Paypal</a></td>
+                        <td><a href="#" className="linkContact">Book with Paypal</a></td>
                         </tr>
 
                         <tr>
                         <td>2022: FEBRUARY 4TH 1.15-7.45PM</td>
                         <td><Link to='/Venue' className="linkContact">The Pavilion Pilates Studio, Dublin 4</Link></td>
                         <td>245</td>
-                        <td><a href="" className="linkContact">Book with Paypal</a></td>
+                        <td><a href="#"  rel="noreferrer" className="linkContact">Book with Paypal</a></td>
                         </tr>
 
                     </tbody>
